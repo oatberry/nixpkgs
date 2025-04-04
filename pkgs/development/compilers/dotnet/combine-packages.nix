@@ -31,6 +31,7 @@ mkWrapper "sdk" (
       "sdk-manifests"
       "shared"
       "templates"
+      "metadata"
     ];
     ignoreCollisions = true;
     nativeBuildInputs = [ makeWrapper ];
